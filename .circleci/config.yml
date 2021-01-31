@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cimg/node:lts
+    # 
+    steps:
+      - run: echo "hello world"
